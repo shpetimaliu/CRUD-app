@@ -19,7 +19,27 @@
   "employees": [
     {
       "name": "Shpetim",
-      "lastName": "aliu"
+      "lastName": "Aliu",
+      "email": "shpetimmaliu@gmail.com",
+      "dob": "2001-10-19T22:00:00.000Z",
+      "gender": "men",
+      "education": "IT Engineering",
+      "university": "TheUnnix School",
+      "experience": 3,
+      "company": "TheUnnix LLC",
+      "id": 1
+    },
+    {
+      "name": "ShputZz",
+      "lastName": "Al",
+      "email": "shputzz@gmail.com",
+      "dob": "2001-10-19T22:00:00.000Z",
+      "gender": "men",
+      "education": "Fishing",
+      "university": "IBER",
+      "experience": 5,
+      "company": "Ibri SHPK",
+      "id": 2
     }
   ]
 }
