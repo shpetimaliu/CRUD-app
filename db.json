@@ -40,6 +40,18 @@
       "experience": 5,
       "company": "Ibri SHPK",
       "id": 2
+    },
+    {
+      "name": "Sh",
+      "lastName": "Al",
+      "email": "shpetim@gmail.com",
+      "dob": "1999-10-19T22:00:00.000Z",
+      "gender": "",
+      "education": "Fishing",
+      "university": "mrSffs",
+      "experience": 4,
+      "company": "TheUnn FSH",
+      "id": 3
     }
   ]
 }
