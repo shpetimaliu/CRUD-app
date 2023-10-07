@@ -25,20 +25,20 @@
       "gender": "men",
       "education": "IT Engineering",
       "university": "TheUnnix School",
-      "experience": 3,
+      "experience": 4,
       "company": "TheUnnix LLC",
       "id": 1
     },
     {
-      "name": "Sh",
-      "lastName": "Al",
-      "email": "shpetim@gmail.com",
-      "dob": "1999-10-19T22:00:00.000Z",
+      "name": "Unnix",
+      "lastName": "DEV",
+      "email": "unnix@dev.com",
+      "dob": "2001-10-19T22:00:00.000Z",
       "gender": "men",
-      "education": "Fishing",
-      "university": "mrSffs",
+      "education": "Science Engineering",
+      "university": "Massachusetts Institute of Technology",
       "experience": 4,
-      "company": "TheUnn FSH",
+      "company": "TheUnnx",
       "id": 3
     },
     {

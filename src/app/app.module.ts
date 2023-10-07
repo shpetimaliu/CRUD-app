@@ -13,6 +13,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSelectModule } from '@angular/material/select';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -42,6 +43,7 @@ import { AppComponent } from './app.component';
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
