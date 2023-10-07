@@ -43,15 +43,29 @@ export class AddEditComponent implements OnInit {
 
   onFormSubmit() {
     if (this.empForm.value) {
-      this._empService.addEmployee(this.empForm.value).subscribe({
-        next: (val: any) => {
-          alert('Will ADD');
-          this._dialogRef.close(true);
-        },
-        error: (error: any) => {
-          console.log('Error:', error);
-        },
-      });
+      if (this.data) {
+        this._empService
+          .updateEmployee(this.data.id, this.empForm.value)
+          .subscribe({
+            next: (val: any) => {
+              alert('Will updated');
+              this._dialogRef.close(true);
+            },
+            error: (error: any) => {
+              console.log('Error:', error);
+            },
+          });
+      } else {
+        this._empService.addEmployee(this.empForm.value).subscribe({
+          next: (val: any) => {
+            alert('Will ADD');
+            this._dialogRef.close(true);
+          },
+          error: (error: any) => {
+            console.log('Error:', error);
+          },
+        });
+      }
     }
   }
 }
